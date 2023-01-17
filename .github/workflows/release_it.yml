@@ -8,6 +8,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
+    - name: Configure
+      shell: bash
+      run: cp ./test-publish/.config/hub ~/.config/hub
     - name: Create a Release
       uses: elgohr/Github-Release-Action@v4
       env:
