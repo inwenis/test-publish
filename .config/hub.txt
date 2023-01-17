@@ -1,0 +1,5 @@
+---
+myenterprise.com:
+- protocol: https
+  user: mislav
+  oauth_token: PERSONALTOKEN
